@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class MonoBehavior : MonoBehaviour
 {
-   public void OnCollisionEnter(Collision other)
-   {
-
-   }
+   //Destroy pickup on contact
+   public void OnTriggerEnter(Collider other)
+  {
+      Destroy(gameObject);
+  }
 }
