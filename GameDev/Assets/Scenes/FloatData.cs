@@ -10,4 +10,6 @@ public class FloatData : ScriptableObject
     {
         value += num;
     }
+
+    
 }
